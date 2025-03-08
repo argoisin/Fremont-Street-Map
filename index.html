@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_619dc245b8f5bcbc96c99e141367fec7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_619dc245b8f5bcbc96c99e141367fec7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_619dc245b8f5bcbc96c99e141367fec7 = L.map(
+                "map_619dc245b8f5bcbc96c99e141367fec7",
+                {
+                    center: [36.1708, -115.1425],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4c93d99e856953a101a022957000ca6c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+            var marker_e9330230356ed864634167f93a62d251 = L.marker(
+                [36.1708, -115.1425],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_210798eb5ff9593e9a98d678b9455c1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b929c23c4e011662dcbed415d561b2d2 = $(`<div id="html_b929c23c4e011662dcbed415d561b2d2" style="width: 100.0%; height: 100.0%;"><b>Fremont Street Experience</b><br>A vibrant pedestrian mall known for its LED canopy and nightly light shows.</div>`)[0];
+            popup_210798eb5ff9593e9a98d678b9455c1b.setContent(html_b929c23c4e011662dcbed415d561b2d2);
+        
+
+        marker_e9330230356ed864634167f93a62d251.bindPopup(popup_210798eb5ff9593e9a98d678b9455c1b)
+        ;
+
+        
+    
+    
+            marker_e9330230356ed864634167f93a62d251.bindTooltip(
+                `<div>
+                     Fremont Street Experience
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25ec22a84fa0d32b495829e77db0aefe = L.marker(
+                [36.1719, -115.1411],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_f676f55ce43d187ae9e6f8e7ba38615c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f81f54abade3bee8b354fb6412cd416 = $(`<div id="html_5f81f54abade3bee8b354fb6412cd416" style="width: 100.0%; height: 100.0%;"><b>El Cortez Hotel & Casino</b><br>A historic casino maintaining its vintage charm since 1941.</div>`)[0];
+            popup_f676f55ce43d187ae9e6f8e7ba38615c.setContent(html_5f81f54abade3bee8b354fb6412cd416);
+        
+
+        marker_25ec22a84fa0d32b495829e77db0aefe.bindPopup(popup_f676f55ce43d187ae9e6f8e7ba38615c)
+        ;
+
+        
+    
+    
+            marker_25ec22a84fa0d32b495829e77db0aefe.bindTooltip(
+                `<div>
+                     El Cortez Hotel & Casino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d721cc9acc9ab453509ead60c5d95865 = L.marker(
+                [36.1714, -115.1455],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_ff81e177169edd6aa551fa6876f47426 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bae052642021f6fb30dbe685ca64759 = $(`<div id="html_3bae052642021f6fb30dbe685ca64759" style="width: 100.0%; height: 100.0%;"><b>Golden Gate Hotel & Casino</b><br>Las Vegas's oldest operating casino, established in 1906.</div>`)[0];
+            popup_ff81e177169edd6aa551fa6876f47426.setContent(html_3bae052642021f6fb30dbe685ca64759);
+        
+
+        marker_d721cc9acc9ab453509ead60c5d95865.bindPopup(popup_ff81e177169edd6aa551fa6876f47426)
+        ;
+
+        
+    
+    
+            marker_d721cc9acc9ab453509ead60c5d95865.bindTooltip(
+                `<div>
+                     Golden Gate Hotel & Casino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_828768377e99b8902b2a924a3038d30e = L.marker(
+                [36.1709, -115.1444],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_f6673355ad6330c86254b883d5641df6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8084ee022a9d3ea83305b965d7e204a0 = $(`<div id="html_8084ee022a9d3ea83305b965d7e204a0" style="width: 100.0%; height: 100.0%;"><b>Golden Nugget Las Vegas Hotel & Casino</b><br>Home to the 'Hand of Faith,' a 61-pound gold nugget on display.</div>`)[0];
+            popup_f6673355ad6330c86254b883d5641df6.setContent(html_8084ee022a9d3ea83305b965d7e204a0);
+        
+
+        marker_828768377e99b8902b2a924a3038d30e.bindPopup(popup_f6673355ad6330c86254b883d5641df6)
+        ;
+
+        
+    
+    
+            marker_828768377e99b8902b2a924a3038d30e.bindTooltip(
+                `<div>
+                     Golden Nugget Las Vegas Hotel & Casino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd81128689cfb99519eeae7dc4c33993 = L.marker(
+                [36.171, -115.144],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_008a80d9d3b01f8605588dd66813abad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_682d73d68162916da23bb24ff3822799 = $(`<div id="html_682d73d68162916da23bb24ff3822799" style="width: 100.0%; height: 100.0%;"><b>Binion's Gambling Hall</b><br>Offers a free photo opportunity with a million dollars in cash.</div>`)[0];
+            popup_008a80d9d3b01f8605588dd66813abad.setContent(html_682d73d68162916da23bb24ff3822799);
+        
+
+        marker_bd81128689cfb99519eeae7dc4c33993.bindPopup(popup_008a80d9d3b01f8605588dd66813abad)
+        ;
+
+        
+    
+    
+            marker_bd81128689cfb99519eeae7dc4c33993.bindTooltip(
+                `<div>
+                     Binion's Gambling Hall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b09be3ef9dc21451e16cc2ad2dbc2f1 = L.marker(
+                [36.1732, -115.1471],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_379a5529b26c90b93888f5c88e41e962 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb835f0c498e456976425129f167e3a0 = $(`<div id="html_cb835f0c498e456976425129f167e3a0" style="width: 100.0%; height: 100.0%;"><b>Main Street Station Casino Brewery Hotel</b><br>Features Victorian-era antiques and a piece of the Berlin Wall.</div>`)[0];
+            popup_379a5529b26c90b93888f5c88e41e962.setContent(html_cb835f0c498e456976425129f167e3a0);
+        
+
+        marker_5b09be3ef9dc21451e16cc2ad2dbc2f1.bindPopup(popup_379a5529b26c90b93888f5c88e41e962)
+        ;
+
+        
+    
+    
+            marker_5b09be3ef9dc21451e16cc2ad2dbc2f1.bindTooltip(
+                `<div>
+                     Main Street Station Casino Brewery Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d39a201e6bb37adc42a86ae81e74da9 = L.marker(
+                [36.1679, -115.1398],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_40f65ede130101e9168156fd89a3f606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a22ca5c3957414195901b826c15d57f = $(`<div id="html_3a22ca5c3957414195901b826c15d57f" style="width: 100.0%; height: 100.0%;"><b>Downtown Container Park</b><br>An open-air shopping center made from shipping containers, featuring boutiques and eateries.</div>`)[0];
+            popup_40f65ede130101e9168156fd89a3f606.setContent(html_3a22ca5c3957414195901b826c15d57f);
+        
+
+        marker_6d39a201e6bb37adc42a86ae81e74da9.bindPopup(popup_40f65ede130101e9168156fd89a3f606)
+        ;
+
+        
+    
+    
+            marker_6d39a201e6bb37adc42a86ae81e74da9.bindTooltip(
+                `<div>
+                     Downtown Container Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b879860d9dea80e397206047cd29f79 = L.marker(
+                [36.1679, -115.1389],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_b5eae6c83f65c2ff4dc5ed0fd038fdf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7094303e77d55e6103dd6838b98896e = $(`<div id="html_b7094303e77d55e6103dd6838b98896e" style="width: 100.0%; height: 100.0%;"><b>Toy Shack</b><br>A vintage toy store showcasing collectible action figures and memorabilia.</div>`)[0];
+            popup_b5eae6c83f65c2ff4dc5ed0fd038fdf6.setContent(html_b7094303e77d55e6103dd6838b98896e);
+        
+
+        marker_3b879860d9dea80e397206047cd29f79.bindPopup(popup_b5eae6c83f65c2ff4dc5ed0fd038fdf6)
+        ;
+
+        
+    
+    
+            marker_3b879860d9dea80e397206047cd29f79.bindTooltip(
+                `<div>
+                     Toy Shack
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf4e578323fb9f146556c94aa6ba13ea = L.marker(
+                [36.1792, -115.1375],
+                {}
+            ).addTo(map_619dc245b8f5bcbc96c99e141367fec7);
+        
+    
+        var popup_0eaf0b70436d9524636215a096d08369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_771d234de7da55009dc0b245ddf62ee3 = $(`<div id="html_771d234de7da55009dc0b245ddf62ee3" style="width: 100.0%; height: 100.0%;"><b>Old Las Vegas Mormon Fort State Historic Park</b><br>Preserves the site of the first permanent structure built in Las Vegas.</div>`)[0];
+            popup_0eaf0b70436d9524636215a096d08369.setContent(html_771d234de7da55009dc0b245ddf62ee3);
+        
+
+        marker_bf4e578323fb9f146556c94aa6ba13ea.bindPopup(popup_0eaf0b70436d9524636215a096d08369)
+        ;
+
+        
+    
+    
+            marker_bf4e578323fb9f146556c94aa6ba13ea.bindTooltip(
+                `<div>
+                     Old Las Vegas Mormon Fort State Historic Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
